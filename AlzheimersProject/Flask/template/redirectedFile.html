@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cognitive Care: Early Intervention Of Alzheimer's Disease</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body><center><br>
+    <h1>Alzheimer Disease Prediction Using MRI</h1><br><br><br><br><br><br>
+    <div class="box-pattern">
+    <p>Drop the MRI scan image <br> <br>to know if disease is there or not!<br><br></p>
+    <input type="file" accept="image/jpeg" id="image-upload" onchange="previewImage(event)" class="file-label">
+    <label for="image-upload">Choose JPG File</label>
+    <button onclick="generateReport()">Generate Report</button>
+  </div></center>
+
+  <script>
+    function previewImage(event) {
+      var reader = new FileReader();
+      reader.onload = function () {
+        var output = document.getElementById('image-preview');
+        output.src = reader.result;
+      };
+      reader.readAsDataURL(event.target.files[0]);
+    }
+    function generateReport() {
+      // Code to generate the report goes here
+      alert('Report generated!');
+      window.location.href = "redirectedFile2.html";
+    }
+  </script>
+</body>
+</html>

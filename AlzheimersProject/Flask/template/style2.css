@@ -1,0 +1,50 @@
+.box-pattern {
+    border: 2px double rgb(69, 69, 73);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+  }
+  
+  h1 {
+    color: white;
+    text-decoration-line: overline underline;
+    text-decoration-color: #337ab7;
+  }
+  
+  p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: #337ab7;
+  }
+  label{
+    color: #fff;
+  }
+  .file-label {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #image-preview {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 20px;
+  }
+  body{
+    background-image: url('alzheimers_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  button{
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

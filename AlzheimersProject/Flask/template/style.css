@@ -1,0 +1,29 @@
+h1 {
+    color: white;
+    text-decoration-line: overline underline;
+    text-decoration-color: #337ab7;
+  }
+  
+  li {
+    color: whitesmoke;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    text-shadow: black;
+    border: 1px solid black;
+  }
+  
+  button {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  body{
+    background-image: url('alzheimers_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
